@@ -1,0 +1,21 @@
+Entities: 1. Student 2. Course 3. Lecturer 4. Dept 5. Book Unit 
+
+Attributes: 1. Student: a. s _ id b. s _ name c. s _ regno d. s _ semester e. c _ id 
+
+Course: a. c _ id b. c _ name c. c _ code d. l _ id  e.l __ id
+
+Lecturer: a. l _ id b. l _ email c. l _ phone d. l _ name e. l _ degree f. l _ scale
+
+Dept: a. d _ id b. d _ name c. d _ hod d. d _ dean e. d _ cmsop
+
+Book Unit: a. bk _ id b. bk _ rb c. bk _ place d. bk _ author e. bk _ avai
+
+
+
+
+A student may enrol in many courses or may not.
+  Multiple students can enrol in one course or may not. 
+ A  given  course  is  proposed  by  one  department,  but  one  department  may  propose  many courses. 
+ Course must be given by only one lecturer. 
+ Each lecturer belongs to one department but department must have one lecturer or may be many. 
+ Each department send book request to exactly one book unit, book unit may be requested by multiple departments.
